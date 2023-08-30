@@ -1,0 +1,569 @@
+:root{
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #29fd53;
+}
+
+.container{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+} 
+
+.li2{
+    padding-left: 20px;
+}
+
+.li3{
+    padding-left: 20px;
+}
+
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+}
+
+@media(max-width: 1146px) {
+    
+    .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}
+
+.row-sort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.text{
+    display: flex;
+}
+
+.row-container{
+    margin-top: 7rem;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+@media (max-width: 972px) {
+    .row-container{
+        flex-wrap: wrap;
+    }
+
+    .select-game {
+        width: 100%!important;
+    }
+
+    .search {
+        width: 100%!important;
+    }
+
+    .select-price {
+        width: 100%!important;
+    }
+
+    .item-type {
+        width: 100%!important;
+    }
+}
+
+@media(max-width:280px) {
+    .row-payment {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 280px!important;
+    }
+
+    .row-sort {
+        padding-right: 0px;
+    }
+}
+
+.small{
+    font-size: 7px;
+}
+
+.select-game{
+    background-color: #4C6085;
+    width: 309px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.select{
+    width: 176px;
+    height: 50px;
+    background-color: #4C608533;
+    padding-left: 30px;
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.select i{
+    color: #39E29D; 
+    margin-right: 4px;
+}
+
+.display-block{
+    width: 200px;
+    height: 0;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.display-block label{
+    padding-left: 60px;
+    margin-top: 10px;
+    font-size: 9px;
+}
+
+
+.featured{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    background: transparent;
+    color: var(--text-color);
+}
+
+.search{
+    width: 567px;
+    height: 50px;
+    background-color: #4C608533;
+    border-radius: 5px;
+}
+
+.search input{
+    height: 50px;
+    border-radius: 5px
+}
+
+@media (max-width: 375px) {
+    .search input{
+        display: none;
+    }
+}
+
+
+.select-price{
+    width: 159px;
+    height: 48px;
+    background-color: #4C608533; 
+    border-radius: 5px;  
+    color: var(--text-color);
+}
+
+.item-type{
+    width: 172px;
+    height: 50px;
+    background-color: #4C608533; 
+    border-radius: 5px;  
+    color: var(--text-color);
+}
+
+.select-space{
+    margin-bottom: 50px;
+}
+
+.select-game i{
+    font-size: 30px;
+    color: var(--text-color);
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.select-price i{
+    font-size: 20px;
+    color: #39E29D;
+}
+
+.item-type i{
+    font-size: 20px;
+    color: #39E29D;
+}
+
+.search i{
+    font-size: 25px;
+    color: var(--text-color);
+    width: 509px;
+    height: 50px;
+    padding-left: 28px;
+}
+
+
+.ri-handbag-line{
+    padding-left: 10px;
+}
+
+.ri-quill-pen-fill{
+    padding-left: 10px;
+}
+
+.select1{
+    background: transparent;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+.select2{
+    background: transparent;
+    border: 0;
+}
+
+.select3{
+    background: transparent;
+    border: none;
+    width: 90px;
+    height: 20px;
+    border-radius: 5px;
+    color: var(--text-color);
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+
+.select4{
+    background: transparent;
+    border: 0;
+}
+
+.box{
+    width: 1235px;
+    height: auto;
+    background-color: #303141;
+    margin-top: 10px;
+    border-radius: 5px;  
+}
+
+.center-box{
+    display: flex;
+    justify-content: center;
+}
+
+.center-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    height: auto;
+    background-color: #303141;
+    width: 100%;
+    position: absolute;
+    margin-top: 205px; 
+}
+
+.center-pay{
+    display: flex;
+    justify-content: center;
+}
+
+.payment-methods{
+    height: 106px;
+    background-color: #2B2C3C;
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.row-payment{
+    align-items: center;
+    display: flex;
+}
+
+.logos1{
+    margin-left: 305px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logos2{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.text1{
+    padding-left: 20px;
+}
+
+.visa-logo{
+    width: 95px;
+    height: 29px;
+}
+
+.mastercard-logo{
+    width: 63px;
+    height: 46px;
+}
+
+.american-logo{
+    width: 99px;
+    height: 50px;
+}
+
+.skrill-logo{
+    width: 86px;
+    height: 30px;
+}
+
+.usdt-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.bitcoin-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.eth-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.lite-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.more{
+    color: rgb(184, 180, 180);
+    font-size: 1.0rem;
+    font-weight: 100;
+}
+
+.row-logo{
+    width: 100%;
+    margin-left: 305px;
+    margin-top: 30px;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 15px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-footer{
+    width: 203px;
+    height: 45px;
+}
+
+p{
+    color: rgb(184, 180, 180);
+}
+
+.title{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.stars{
+    width: 108px;
+    height: 20px;
+}
+
+.gray{
+    color: rgb(184, 180, 180);
+}
+
+.gray-copyright{
+    color: rgb(184, 180, 180);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.line{
+    width: 90%;
+}
+
+.row-footer{
+   margin-top: 40px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 1px;
+}
+
+.block1{
+    width: 12%;
+   justify-content: center;
+   margin-left: 13rem; 
+   align-items: center;
+}
+
+.block2{
+    width: 12%;
+   justify-content: center;
+   align-items: center;
+   margin-left: 50px;
+}
+
+.block3{
+    width: 12%;
+   justify-content: center;
+   align-items: center;
+}
+
+.block4{
+    width: 12%;
+   justify-content: center;
+   align-items: center;
+}
+
+.block5{
+   width: 18%;
+   justify-content: center;
+   display: inline-flex;
+   align-items: center;
+   margin-bottom: 100px;
+}
+
+@media (max-width: 570px) {
+
+    .row-footer{
+        display: block;
+    }
+
+    .block1 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .block2 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .block3 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .block4 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .block5 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .row-logo {
+        margin-left: 0;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .logos1 {
+        margin-left: 2px!important;
+        gap: 10px;
+    }
+
+    .visa-logo {
+        width: 58px;
+    }
+
+    .mastercard-logo {
+        width: 40px;
+    }
+
+    .american-logo {
+        width: 63px;
+    }
+    
+    .skrill-logo {
+        width: 54px;
+    }
+
+    .logos2 {
+        padding-left: 14px;
+    }
+
+    .text1 {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .logos1 {
+        margin-left: 40px;
+    }
+
+    .row-logo {
+        margin-left: 0px;
+    }
+
+    .social-media {
+        margin-left: 40px;
+    }
+
+    .block1 {
+        margin-left: 0px;
+    }
+
+    .logo-footer {
+        width: 152px;
+        height: 31px;
+    }
+
+    .row-footer {
+        gap: 36px;
+    }
+}
+
+
+

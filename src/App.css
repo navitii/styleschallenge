@@ -1,0 +1,162 @@
+:root{
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #29fd53;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    padding-bottom: 18px;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    background: linear-gradient(rgba(48, 49, 65, 0.90),rgba(48, 49, 65, 0.90)),
+    url(./fondochicks.jpg) no-repeat center
+    center fixed;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 15px 5%;
+    transition: all .50s ease;
+    background-color: #303141;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.0rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main a {
+    margin-right: 25px;
+    margin-right: 10px;
+    color: var(--text-color);
+    font-size: 1.0rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .main {
+        margin-left: 103px;
+    }
+}
+
+@media(max-width:280px) {
+    .logo {
+        display: none;
+    }
+}
+
+.main button{
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.user2{
+    display: flex;
+    align-items: center;
+    color: #222327;
+}
+
+.sign{
+    width: 106.3px;
+    height: 40px;
+    background-color: #39E29D;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user2 i{
+    color:#222327;
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+.main a:hover{
+    color: var(--main-color);
+}
+
+
+#menu-icon{
+    font-size: 35px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+@media (max-width: 1280px){
+    header{
+        padding: 14px 3%;
+        transition: .2s;
+    }
+    
+    .navbar a {
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width : 1090px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 270px;
+        height: 29vh;
+        background: var(--main-color);
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+}  
